@@ -1,0 +1,29 @@
+.veg-container {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #00A14B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veg-circle {
+    width: 7.5px;
+    height: 7.5px;
+    border-radius: 3.5px;
+    background-color: #00A14B;
+}
+
+.nonveg-container {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #92282c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nonveg-circle {
+    width: 7.5px;
+    height: 7.5px;
+    border-radius: 3.5px;
+    background-color: #92282c;
+}

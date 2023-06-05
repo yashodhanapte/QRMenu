@@ -1,0 +1,29 @@
+.menuitemcard {
+    display: flex;
+    background-color: #f8f9fa;
+    box-shadow: 0.5px 0.5px 3px 0px rgba(0,0,0,0.75);
+}
+.menuitemcard-image {
+    width: 200px;
+}
+.menuitemcard-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+.menuitemcard-vegmarker {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menuitemcard-body-lower {
+    display: flex;
+    justify-content: flex-end;
+}
+.menuitemcard-price {
+    font-size: 24px;
+    font-weight: bold;
+}

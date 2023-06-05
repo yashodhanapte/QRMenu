@@ -2,7 +2,7 @@ import React from "react";
 // import QRMenu from "./components/QRMenu";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const QRMenu = React.lazy(() => import("./components/QRMenu"));
+const QRMenu = React.lazy(() => import("./components/QRMenu/QRMenu"));
 
 export default function Routing() {
   return (
